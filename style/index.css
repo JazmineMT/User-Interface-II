@@ -1,1 +1,122 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+box-sizing:border-box;
+}
+ 
+ 
+body {
+    line-height: 3;
+    font-size: 1rem;
+    font-family: 'Gaegu', cursive;
+    padding: 50px;
+    background-color:#e8dcdc;
+    
+}
+ h1, h2, h3{
+     padding: 10px;
+     font-size: 2rem;
+     font-weight: bold;
+     font-family: 'Gaegu', cursive;
+ }
+
+ h1{
+     text-align: center;
+ }
+#header-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e8dcdc;
+    height: 150px;
+}
+
+ #main-sections{
+    background-color: #e8dcdc; 
+}
+
+
+
+    
+ #navigation a .b{
+    margin: 10px; 
+    padding: 10px;
+    border :10px ;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+} 
+a{
+padding: 10px;
+border: 0;
+background: #cdacab;
+color:white;
+margin: 10px;
+position: relative;
+text-decoration: none;
+border-radius: 10px;
+}
+
+a:hover{
+    background-color: #512A36;
+    color: white;
+}
+
+ #project-button{
+   width: 10px;
+} 
+#aboutMe{
+    text-align: center;
+  
+}
+
+#home-image{
+padding-left: 45%;
+margin: 40px;
+display: flex;
+align-content: center;
+}
+
+
+#big-container .smal-image{ 
+     height: 400px;
+     width: 300px;
+     padding: 10px 10px;
+     display:flex;
+     justify-content: space-around;
+     text-align: center;
+ }
+
+#footer-header{
+    text-align: center;
+}
+#footer-button{
+    padding:10px;
+}
+
+ footer{
+  padding:10px;
+    background-color:#235056;
+    display:flex;
+    justify-content: center;
+ }
+ 
