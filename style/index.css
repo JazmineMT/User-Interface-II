@@ -22,16 +22,18 @@ vertical-align: baseline;
 box-sizing:border-box;
 }
  
+html{
+    font-size: 62.5%;
+}
  
 body {
     line-height: 3;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: 'Gaegu', cursive;
     background-color:#ECC8AF;
     
 }
  h1, h2, h3{
-     padding: 10px;
      font-size: 2rem;
      font-weight: bold;
      font-family: 'Gaegu', cursive;
@@ -45,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color:#ECC8AF;
-    height: 150px;
+     
 }
 
  #main-section{
@@ -56,23 +58,20 @@ body {
 
     
  #navigation a .b{
-    margin: 10px; 
-    padding: 10px;
-    border :10px ;
+    margin: 5%; 
+    padding: 5%;
     display: flex;
     justify-content: space-evenly;
     
     
 } 
 a{
-padding: 10px;
-border: 0;
+padding: 1vh;
 background: #C18C5D;
-color:white;
-margin: 10px;
-position: relative;
+color:black;
+margin: 0.8vh;
 text-decoration: none;
-border-radius: 10px;
+border-radius: 6vh;
 }
 
 a:hover{
@@ -80,9 +79,7 @@ a:hover{
     color: white;
 }
 
- #project-button{
-   width: 10px;
-} 
+ 
 
 #aboutMe{
     padding: 0% 5%;
@@ -91,7 +88,7 @@ a:hover{
 }
 
 #section2{
-    height: 500px;
+    height: 50vh; 
     width: 100%;
     padding-left: 45%;
     background-image: url("https://picsum.photos/200/300?grayscale");
@@ -118,7 +115,7 @@ a:hover{
 #big-container , .small-image { 
      height: 100%;
      width: 100%;
-     padding: 20px;
+     padding: 1%;
      display: flex;
      justify-content: space-evenly;
      align-items: stretch;
@@ -127,15 +124,17 @@ a:hover{
      
  }
 
-#big-container p {    
-    width: 10%;
-    height: 10%;
+#description{ 
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
     padding: 5% ; 
  }
 
-#footer-button{
-    padding:10px;
-}
+
 
  footer{
    padding: 2%;
@@ -144,3 +143,78 @@ a:hover{
     justify-content: center;
  }
  
+ @media(max-width: 800px){
+    #aboutMe p{
+      font-size: 1.4rem;
+       
+    }
+   
+    #big-container{
+      width:60%;
+      display: flex;
+      justify-content: space-around;
+       
+    }
+    .small-image{
+      width: 50%;
+    }
+    
+  }
+  
+  @media(max-width:500px){
+ 
+    #aboutMe p{
+     padding: 5% 5%;
+      font-size: 1rem;
+       
+    }
+    #big-container p{
+    font-size: .5rem;
+  }
+  }
+
+
+
+
+ footer{
+   padding: 2%;
+    background-color:#495867;
+    display:flex;
+    justify-content: center;
+ }
+ 
+ @media(max-width: 800px){
+    #aboutMe p{
+      font-size: 1.4rem;
+       
+    }
+   
+    #big-container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap:  wrap;      
+    }
+  
+    
+  }
+  
+  @media(max-width:500px){
+    #big-container{
+      width:100%;
+      
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+       
+    
+    #aboutMe p{
+     padding: 5% 5%;
+      font-size: 1rem;
+       
+    }
+    #description p{
+    font-size: 1.5rem;
+  }
