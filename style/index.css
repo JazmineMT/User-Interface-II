@@ -25,10 +25,9 @@ box-sizing:border-box;
  
 body {
     line-height: 3;
-    font-size: 1rem;
+    font-size: 15px;
     font-family: 'Gaegu', cursive;
-    padding: 50px;
-    background-color:#e8dcdc;
+    background-color:#ECC8AF;
     
 }
  h1, h2, h3{
@@ -45,12 +44,12 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:#e8dcdc;
+    background-color:#ECC8AF;
     height: 150px;
 }
 
- #main-sections{
-    background-color: #e8dcdc; 
+ #main-section{
+    background-color: #ECC8AF; 
 }
 
 
@@ -68,7 +67,7 @@ body {
 a{
 padding: 10px;
 border: 0;
-background: #cdacab;
+background: #C18C5D;
 color:white;
 margin: 10px;
 position: relative;
@@ -77,45 +76,70 @@ border-radius: 10px;
 }
 
 a:hover{
-    background-color: #512A36;
+    background-color: #CE796B;
     color: white;
 }
 
  #project-button{
    width: 10px;
 } 
+
 #aboutMe{
+    padding: 0% 5%;
     text-align: center;
   
 }
 
-#home-image{
-padding-left: 45%;
-margin: 40px;
-display: flex;
-align-content: center;
+#section2{
+    height: 500px;
+    width: 100%;
+    padding-left: 45%;
+    background-image: url("https://picsum.photos/200/300?grayscale");
+    background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  
+
 }
 
+#image-container{
+    padding-left: 45%;
+   
+}
 
-#big-container .smal-image{ 
-     height: 400px;
-     width: 300px;
-     padding: 10px 10px;
-     display:flex;
-     justify-content: space-around;
-     text-align: center;
+#home-image{
+    display: flex;
+    justify-content: stretch;
+    align-self: stretch;
+
+}
+
+#big-container , .small-image { 
+     height: 100%;
+     width: 100%;
+     padding: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: stretch;
+     
+     
+     
  }
 
-#footer-header{
-    text-align: center;
-}
+#big-container p {    
+    width: 10%;
+    height: 10%;
+    padding: 5% ; 
+ }
+
 #footer-button{
     padding:10px;
 }
 
  footer{
-  padding:10px;
-    background-color:#235056;
+   padding: 2%;
+    background-color:#495867;
     display:flex;
     justify-content: center;
  }
