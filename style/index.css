@@ -33,6 +33,17 @@ body {
     background-color:#ECC8AF;
     
 }
+
+/* hid the skip content button*/
+
+#skip{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden; 
+}
  h1, h2, h3{
      font-size: 2rem;
      font-weight: bold;
@@ -203,18 +214,18 @@ a:hover{
   @media(max-width:500px){
     #big-container{
       width:100%;
-      
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
+      display:flex;
+        flex-direction:column;
+        align-items:center;
+        }
        
     
     #aboutMe p{
      padding: 5% 5%;
       font-size: 1rem;
-       
-    }
+    }   
+    
     #description p{
     font-size: 1.5rem;
   }
+}
